@@ -1,0 +1,54 @@
+<users>
+    <user>
+        <name>user1</name>
+        <tasks>
+            <task>
+                <name>taskName1</name>
+                <description>some description for task1</description>
+                <expiredDate>10/10/2023</expiredDate>
+            </task>
+            <task>
+                <name>taskName2</name>
+                <description>some description for task2</description>
+                <expiredDate>10/10/2023</expiredDate>
+            </task>
+        </tasks>
+        <boss>1</boss>
+    </user>
+    <user>
+        <userId>5555</userId>
+        <tasks>
+            <task>
+                <name>taskName1</name>
+                <description>some description for task1</description>
+                <expiredDate>10/10/2023</expiredDate>
+            </task>
+            <task>
+                <name>taskName2</name>
+                <description>some description for task2</description>
+                <expiredDate>10/10/2023</expiredDate>
+            </task>
+        </tasks>
+        <boss>1</boss>
+    </user>
+    <user>
+        <userId>1488</userId>
+        <users>
+            <user>
+                <userId>5555</userId>
+                <tasks>
+                    <task>
+                        <name>taskName1</name>
+                        <description>some description for task1</description>
+                        <expiredDate>10/10/2023</expiredDate>
+                    </task>
+                    <task>
+                        <name>taskName2</name>
+                        <description>some description for task2</description>
+                        <expiredDate>10/10/2023</expiredDate>
+                    </task>
+                </tasks>
+            </user>
+        </users>
+    </user>
+</users>
